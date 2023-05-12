@@ -48,7 +48,7 @@ Would like to run this project locally? Open terminal and follow these steps:
 
 1. Clone the repo
     ```sh
-    git clone https://github.com/front-end-by-rimantas/45-grupe-yoga.git
+    git clone 
     ```
 2. Install NPM packages
     ```sh
@@ -69,7 +69,7 @@ There is no tests for this project.
 
 ## 🎅 Authors
 
-Rimantas: [Github](https://github.com/mistakeltu)
+Karolis: [Github](https://github.com/mistakeltu)
 
 ## ⚠️ License
 
