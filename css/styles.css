@@ -4,8 +4,8 @@ body {
 }
 
 .container {
-    margin-top: 10px;
     display: flex;
+    justify-content: space-between;
     float: left;
     width: 800px;
     margin-bottom: 60px;
@@ -13,8 +13,8 @@ body {
 }
 
 .main-header {
-    justify-content: space-between;
     align-items: flex-end;
+    margin-top: 10px;
 }
 
 .logo {
@@ -30,9 +30,16 @@ body {
     text-decoration: none;
     color: black;
     font-size: 19px;
+    border-bottom: 3px solid transparent;
+    padding-bottom: 3px;
 }
 .menu-link:hover {
-    text-decoration: underline;
+    border-bottom: 3px solid orangered;
+
+}
+
+.active {
+    border-bottom: 3px solid orangered;
 }
 
 .left-column{
@@ -69,14 +76,14 @@ body {
     cursor: crosshair;
     box-shadow: 0;
 }
-
-.main-image {
-
-}
 .orange {
     color: rgb(255, 70, 34);
 }
 
 footer {
     margin-bottom: 10px;
+}
+
+.copy {
+    margin: 0;
 }
