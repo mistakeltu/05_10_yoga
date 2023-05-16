@@ -80,10 +80,33 @@ body {
     color: rgb(255, 70, 34);
 }
 
-footer {
+.main-footer {
     margin-bottom: 10px;
 }
 
 .copy {
     margin: 0;
+    font-size: 18px;
+    
+}
+
+.socials {
+    display: flex;
+    gap: 5px;
+}
+
+.fa {
+    text-decoration: none;
+    color: rgb(54, 54, 54);
+    width: 1em;
+    height: 1em;
+    line-height: 1em;
+    font-size: 20px;
+}
+
+.fa:hover {
+    color: grey;
+    font-size: 22px;
+    margin: -1px;
+
 }
